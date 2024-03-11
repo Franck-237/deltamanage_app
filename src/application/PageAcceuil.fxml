@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="600.0" maxWidth="1100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1103.0" styleClass="backgroundChargement" stylesheets="@../application/application.css">
+         <children>
+            <AnchorPane layoutX="-2.0" layoutY="408.0" prefHeight="191.0" prefWidth="1017.0" styleClass="backgroundChargementB" stylesheets="@../application/application.css">
+               <children>
+                  <AnchorPane layoutX="341.0" layoutY="-58.0" prefHeight="121.0" prefWidth="187.0" styleClass="backgroundRecherche" stylesheets="@../application/application.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="62.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="Recherche facile" wrappingWidth="103.33333333333348">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="62.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="d'acte civil" wrappingWidth="103.33333333333348">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="62.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="En quelques clics&#10;à l'aide des filtres&#10;vous trouvez un acte" wrappingWidth="103.33333333333348" />
+                        <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="9.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Desktop/DeltaManage/icone/Recherche-blanc.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="556.0" layoutY="-58.0" prefHeight="121.0" prefWidth="187.0" styleClass="backgroundRapport" stylesheets="@../application/application.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="Rapport generer" wrappingWidth="103.33333333333348">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="par le logiciel" wrappingWidth="103.33333333333348">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="65.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="La liste des actes&#10;crées pendant une&#10;période est génere" wrappingWidth="110.66664632161473" />
+                        <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="10.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Desktop/DeltaManage/icone/Rapport-Blanc.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="79.0" opacity="0.44" prefHeight="112.0" prefWidth="368.0" styleClass="motif" stylesheets="@../application/application.css" />
+                  <AnchorPane layoutX="578.0" layoutY="83.0" opacity="0.43" prefHeight="165.0" prefWidth="368.0" styleClass="motif" stylesheets="@../application/application.css" />
+                  <Button layoutX="830.0" layoutY="144.0" mnemonicParsing="false" onAction="#SwitchToNewCompte" prefHeight="34.0" prefWidth="163.0" styleClass="btnCommencer" stylesheets="@../application/application.css" text="Commencer" textFill="#1700f9">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1013.0" prefHeight="409.0" prefWidth="89.0" styleClass="backgroundUnicolor" stylesheets="@../application/application.css" />
+            <ImageView fitHeight="104.0" fitWidth="416.0" layoutX="121.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/DeltaManage/Logo-blanc-PNG.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="323.0" fitWidth="326.0" layoutX="654.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/DeltaManage/Mairie.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="121.0" layoutY="151.0" prefHeight="34.0" prefWidth="368.0" styleClass="coolvetica" stylesheets="@../application/application.css" text="Logiciel de gestion des actes d'état " textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="121.0" layoutY="173.0" prefHeight="34.0" prefWidth="220.0" styleClass="coolvetica" stylesheets="@../application/application.css" text="civil pour une mairie" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="121.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="Tout en un : gestion des actes de naissances,&#10;actes de mariage, acte de décès&#10;et acte de divorce.">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="121.0" layoutY="349.0" prefHeight="121.0" prefWidth="187.0" styleClass="backgroundEnregistrement" stylesheets="@../application/application.css">
+               <children>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="Enregistrement" wrappingWidth="103.33333333333348">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="des actes" wrappingWidth="103.33333333333348">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="Enregistrer chaque&#10;acte en moins de&#10;5 minutes" />
+                  <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="12.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/DeltaManage/icone/Enregistrement-blanc.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="771.0" layoutY="349.0" prefHeight="121.0" prefWidth="187.0" styleClass="backgroundImpression" stylesheets="@../application/application.css">
+               <children>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="Impression" wrappingWidth="103.33333333333348">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="facile" wrappingWidth="103.33333333333348">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="Imprimer un acte&#10;ou plusieurs actes&#10;à la fois en un clic" wrappingWidth="110.66664632161473" />
+                  <ImageView fitHeight="60.0" fitWidth="44.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/DeltaManage/icone/Impression-Blanc.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

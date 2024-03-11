@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerOpenActe">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="backgroundPincipal" stylesheets="@../application/application.css">
+         <children>
+            <AnchorPane layoutY="568.0" prefHeight="32.0" prefWidth="1100.0" styleClass="backgroundUnicolor" stylesheets="@../application/application.css">
+               <children>
+                  <Text fill="WHITE" layoutX="34.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copiright Delta Manage 2024" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="39.0" layoutY="26.0" prefHeight="509.0" prefWidth="231.0" styleClass="form" stylesheets="@../application/application.css">
+               <children>
+                  <Button layoutX="42.0" layoutY="441.0" mnemonicParsing="false" onAction="#SwitchToHistory" prefHeight="39.0" prefWidth="147.0" styleClass="btnConnectInscr" text="Historique" textFill="WHITE">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="24.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nouveau">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="25.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="24.0" layoutY="70.0" mnemonicParsing="false" onAction="#SwitchToNaissance" prefHeight="27.0" prefWidth="32.0" styleClass="btnPlus" stylesheets="@../application/application.css" text="+">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="64.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acte de Naissance">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="25.0" layoutY="107.0" mnemonicParsing="false" onAction="#SwitchToMariage" prefHeight="27.0" prefWidth="32.0" styleClass="btnPlus" stylesheets="@../application/application.css" text="+">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="65.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acte de mariage">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="25.0" layoutY="144.0" mnemonicParsing="false" onAction="#SwitchToDivorce" prefHeight="27.0" prefWidth="32.0" styleClass="btnPlus" stylesheets="@../application/application.css" text="+">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="65.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acte de divorce">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="25.0" layoutY="182.0" mnemonicParsing="false" onAction="#SwitchToDeces" prefHeight="27.0" prefWidth="32.0" styleClass="btnPlus" stylesheets="@../application/application.css" text="+">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="12.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="65.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acte de décès">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Separator layoutX="20.0" layoutY="230.0" prefWidth="200.0" />
+                  <Text layoutX="24.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des actes">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="25.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="47.0" layoutY="289.0" text="Naissance">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="47.0" layoutY="316.0" text="Mariage">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="47.0" layoutY="344.0" text="Divorce">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="47.0" layoutY="373.0" text="Décès">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <ImageView fitHeight="22.0" fitWidth="20.0" layoutX="21.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/Projet%20Java/icone/heart-crack-solid.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="20.0" layoutX="23.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/Projet%20Java/icone/cross-solid.png" />
+                     </image>
+                  </ImageView>
+                  <Separator layoutX="20.0" layoutY="418.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="296.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actes civils">
+               <font>
+                  <Font name="CoolveticaRg-Regular" size="25.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="296.0" layoutY="129.0" prefHeight="406.0" prefWidth="765.0" styleClass="form" stylesheets="@../application/application.css">
+               <children>
+                  <TableView prefHeight="406.0" prefWidth="765.0">
+                    <columns>
+                      <TableColumn fx:id="idacteField" prefWidth="75.0" text="ID Acte" />
+                      <TableColumn fx:id="tacteField" prefWidth="119.33331298828125" text="Type d'acte civil" />
+                        <TableColumn fx:id="nconField" prefWidth="257.33331298828125" text="Nom du/des concernés" />
+                        <TableColumn fx:id="noField" prefWidth="215.33331298828125" text="Nom officier" />
+                        <TableColumn fx:id="dcField" prefWidth="98.66668701171875" text="Date" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <TextField layoutX="296.0" layoutY="26.0" prefHeight="32.0" prefWidth="589.0" promptText="Recherche" styleClass="textField" stylesheets="@../application/application.css" />
+            <ComboBox layoutX="441.0" layoutY="81.0" prefHeight="28.0" prefWidth="109.0" promptText="Type d'acte" styleClass="textField" stylesheets="@../application/application.css" />
+            <ComboBox layoutX="569.0" layoutY="81.0" prefHeight="28.0" prefWidth="77.0" promptText="Date" styleClass="textField" stylesheets="@../application/application.css" />
+            
+            <Text layoutX="975.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMIN">
+               <font>
+                  <Font name="CoolveticaRg-Regular" size="18.0" />
+               </font>
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.0117647061124444" green="0.250980406999588" blue="0.772549033164978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.35686275362968445" green="0.48627451062202454" blue="0.7686274647712708" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

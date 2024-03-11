@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerRegister">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="backgroundPincipal" stylesheets="@../application/application.css">
+         <children>
+            <AnchorPane layoutY="568.0" prefHeight="32.0" prefWidth="1100.0" styleClass="backgroundUnicolor" stylesheets="@../application/application.css">
+               <children>
+                  <Text fill="WHITE" layoutX="34.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copiright Delta Manage 2024" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="43.0" layoutY="76.0" prefHeight="459.0" prefWidth="1014.0" styleClass="form" stylesheets="@../application/application.css">
+               <children>
+                  <Button layoutX="651.0" layoutY="291.0" mnemonicParsing="false" onAction="#SwitchToDeces" prefHeight="27.0" prefWidth="205.0" styleClass="btnConnectInscr" text="Enregistrer" textFill="WHITE">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="157.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Infos sur le décédé">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="pdecedeField" alignment="CENTER" layoutX="151.0" layoutY="214.0" prefHeight="32.0" prefWidth="205.0" promptText="Prenom du décédé..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="datedField" alignment="CENTER" layoutX="151.0" layoutY="263.0" prefHeight="32.0" prefWidth="205.0" promptText="Date du décès..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="lieudField" alignment="CENTER" layoutX="151.0" layoutY="315.0" prefHeight="32.0" prefWidth="205.0" promptText="Lieu du décès.." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="datenField" alignment="CENTER" layoutX="151.0" layoutY="369.0" prefHeight="32.0" prefWidth="205.0" promptText="Date de naissance..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="lieunField" alignment="CENTER" layoutX="151.0" layoutY="413.0" prefHeight="32.0" prefWidth="205.0" promptText="Lieu de naissance..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="profField" alignment="CENTER" layoutX="404.0" layoutY="125.0" prefHeight="32.0" prefWidth="205.0" promptText="Profession..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="domField" alignment="CENTER" layoutX="404.0" layoutY="182.0" prefHeight="32.0" prefWidth="205.0" promptText="Domicile..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="nompeField" alignment="CENTER" layoutX="403.0" layoutY="238.0" prefHeight="32.0" prefWidth="205.0" promptText="Nom du père" styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="dompField" alignment="CENTER" layoutX="403.0" layoutY="295.0" prefHeight="32.0" prefWidth="205.0" promptText="Domicile du père" styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="nommeField" alignment="CENTER" layoutX="403.0" layoutY="353.0" prefHeight="32.0" prefWidth="205.0" promptText="Nom de la mère..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="dommField" alignment="CENTER" layoutX="651.0" layoutY="125.0" prefHeight="32.0" prefWidth="205.0" promptText="Domicile de la mère..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="datecField" alignment="CENTER" layoutX="651.0" layoutY="182.0" prefHeight="32.0" prefWidth="205.0" promptText="Nom officier" styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="nomofField" alignment="CENTER" layoutX="651.0" layoutY="238.0" prefHeight="32.0" prefWidth="205.0" promptText="Dressé le.." styleClass="textField" stylesheets="@../application/application.css" />
+                  <Button layoutX="651.0" layoutY="349.0" mnemonicParsing="false" onAction="#SwitchBack" prefHeight="27.0" prefWidth="205.0" styleClass="btnConnectInscr" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="decedeField" alignment="CENTER" layoutX="151.0" layoutY="166.0" prefHeight="32.0" prefWidth="205.0" promptText="Nom du décédé..." styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField fx:id="numdField" alignment="CENTER" layoutX="151.0" layoutY="125.0" prefHeight="32.0" prefWidth="205.0" promptText="Num acte.." styleClass="textField" stylesheets="@../application/application.css" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="43.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajout d'acte de Décès">
+               <font>
+                  <Font name="CoolveticaRg-Regular" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

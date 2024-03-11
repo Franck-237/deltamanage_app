@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="backgroundPincipal" stylesheets="@../application/application.css">
+         <children>
+            <AnchorPane layoutX="647.0" layoutY="78.0" prefHeight="443.0" prefWidth="363.0" styleClass="form">
+               <children>
+                  <Label layoutX="100.0" layoutY="84.0" styleClass="coolvetica" text="Bienvenue sur">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="102.0" layoutY="120.0" styleClass="coolvetica" text="Delta Manage" textFill="#1700f9">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="69.0" layoutY="320.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="225.0" styleClass="btnConnectInscr" text="Recevoir le code" textFill="WHITE">
+                     <font>
+                        <Font name="CoolveticaRg-Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <TextField alignment="CENTER" layoutX="43.0" layoutY="174.0" prefHeight="30.0" prefWidth="277.0" promptText="Numéro de téléphone" styleClass="textField" stylesheets="@../application/application.css" />
+                  <TextField alignment="CENTER" layoutX="43.0" layoutY="222.0" prefHeight="30.0" prefWidth="277.0" promptText="Confirmer le numéro" styleClass="textField" stylesheets="@../application/application.css" />
+                  <Label layoutX="102.0" layoutY="264.0" styleClass="coolvetica" text="Un code de vérification sera &#10;envoyé à ce numéro" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="568.0" prefHeight="32.0" prefWidth="1100.0" styleClass="backgroundUnicolor" stylesheets="@../application/application.css">
+               <children>
+                  <Text fill="WHITE" layoutX="34.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copiright Delta Manage 2024" />
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="59.0" fitWidth="380.0" layoutX="116.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/Licence%20GLO/SupportEtOutls_JavaDeveloppeur/Exposé/Logo%20PNG.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="116.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="coolvetica" text="Vérification du compte">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="116.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="Pour des mesures de sécurité et pour vous aider à récupérer &#10;votre compte si vous oubliez votre mot de passe, &#10;vous devez utilisé ce numéro de téléphone.&#10;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="116.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="arial" text="Notez que pendant la connexion à votre compte&#10;si vous tapez un mot de passe incorrect trois fois de suite,&#10;vous serez obligé d'utiliser ce numéro. Cela&#10;empêchera aux intrus d'accéder à votre compte.&#10;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

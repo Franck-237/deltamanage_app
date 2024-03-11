@@ -1,0 +1,145 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.coolvetica{
+	-fx-font-family: "Coolvetica Rg"
+}
+
+.arial{
+	-fx-font-family: "Arial"
+}
+
+.backgroundPincipal {
+    -fx-background-color: #F2F0F0;
+}
+
+.backgroundChargement {
+    -fx-background-color: linear-gradient(to right, #0340C5, #5B7CC4);
+}
+
+.backgroundChargementB {
+    -fx-background-color: linear-gradient(to right, #5B7CC4, #0340C5);
+}
+
+.backgroundUnicolor {
+    -fx-background-color: #3461C4;
+}
+
+.backgroundEnregistrement {
+    -fx-background-color: #3461C4;
+    -fx-background-radius: 10px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.backgroundRecherche {
+    -fx-background-color: #3461C4;
+    -fx-background-radius: 10px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.backgroundRapport {
+    -fx-background-color: #476EC4;
+    -fx-background-radius: 10px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.backgroundImpression {
+    -fx-background-color: #5B7CC4;
+    -fx-background-radius: 10px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.motif {
+    -fx-background-color: null;
+    -fx-background-radius: 10px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 1), 10, 0, 5, 0);
+}
+
+.btnCommencer {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 50px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 50px;
+}
+
+.btnCommencer:hover {
+    -fx-background-color: #1700F9;
+    -fx-text-fill: #FFFFFF;
+}
+
+
+.form {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 30px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 0);
+}
+
+
+.btnConnectInscr {
+    -fx-background-color: linear-gradient(to right, #0340C5, #5B7CC4);
+    -fx-background-radius: 30px;
+}
+
+.btnConnectInscr:hover {
+    -fx-background-color: linear-gradient(to bottom, #0340C5, #5B7CC4);
+}
+
+.btnPlus {
+    -fx-background-color: #F2F0F0;
+    -fx-background-radius: 30px;
+    -fx-border-color: #707070;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+}
+
+.btnPlus:hover {
+    -fx-background-color: linear-gradient(to bottom, #0340C5, #5B7CC4);
+    -fx-text-fill: #FFFFFF
+}
+
+.textField {
+    -fx-background-color: #F2F0F0;
+    -fx-background-radius: 30px;
+    -fx-border-color: #707070;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+    }
+    
+.tableView{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to right, #0340C5, #5B7CC4);
+    -fx-border-radius: 30px;
+    -fx-padding: 0px;
+    }
+    
+.tableView.tableColum{
+    -fx-alignment: CENTER;
+    }
+    
+.tableView.columHeadBackground{
+    -fx-background-color: linear-gradient(to right, #0340C5, #5B7CC4);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 30px 30px 0px 0px;
+    }
+    
+.tableView.columHeadBackground, .filter{
+    -fx-background-color: tranparent;
+    -fx-size: 40px;
+    }
+    
+.tableView.columHeadBackground.label{
+    -fx-text-fill: #ffffff;
+    }    
